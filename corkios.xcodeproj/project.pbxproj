@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4713E2CC2685D378004931EA /* corkiosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713E2CB2685D378004931EA /* corkiosApp.swift */; };
+		4713E2CE2685D378004931EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713E2CD2685D378004931EA /* ContentView.swift */; };
+		4713E2D02685D379004931EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4713E2CF2685D379004931EA /* Assets.xcassets */; };
+		4713E2D32685D379004931EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4713E2D22685D379004931EA /* Preview Assets.xcassets */; };
+		4713E2DE2685D37A004931EA /* corkiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713E2DD2685D37A004931EA /* corkiosTests.swift */; };
+		4713E2E92685D37A004931EA /* corkiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713E2E82685D37A004931EA /* corkiosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4713E2DA2685D37A004931EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4713E2C02685D378004931EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4713E2C72685D378004931EA;
+			remoteInfo = corkios;
+		};
+		4713E2E52685D37A004931EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4713E2C02685D378004931EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4713E2C72685D378004931EA;
+			remoteInfo = corkios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4713E2C82685D378004931EA /* corkios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = corkios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4713E2CB2685D378004931EA /* corkiosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = corkiosApp.swift; sourceTree = "<group>"; };
+		4713E2CD2685D378004931EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4713E2CF2685D379004931EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4713E2D22685D379004931EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4713E2D42685D379004931EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4713E2D92685D37A004931EA /* corkiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = corkiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4713E2DD2685D37A004931EA /* corkiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = corkiosTests.swift; sourceTree = "<group>"; };
+		4713E2DF2685D37A004931EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4713E2E42685D37A004931EA /* corkiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = corkiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4713E2E82685D37A004931EA /* corkiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = corkiosUITests.swift; sourceTree = "<group>"; };
+		4713E2EA2685D37A004931EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4713E2C52685D378004931EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4713E2D62685D37A004931EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4713E2E12685D37A004931EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4713E2BF2685D378004931EA = {
+			isa = PBXGroup;
+			children = (
+				4713E2CA2685D378004931EA /* corkios */,
+				4713E2DC2685D37A004931EA /* corkiosTests */,
+				4713E2E72685D37A004931EA /* corkiosUITests */,
+				4713E2C92685D378004931EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4713E2C92685D378004931EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4713E2C82685D378004931EA /* corkios.app */,
+				4713E2D92685D37A004931EA /* corkiosTests.xctest */,
+				4713E2E42685D37A004931EA /* corkiosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4713E2CA2685D378004931EA /* corkios */ = {
+			isa = PBXGroup;
+			children = (
+				4713E2CB2685D378004931EA /* corkiosApp.swift */,
+				4713E2CD2685D378004931EA /* ContentView.swift */,
+				4713E2CF2685D379004931EA /* Assets.xcassets */,
+				4713E2D42685D379004931EA /* Info.plist */,
+				4713E2D12685D379004931EA /* Preview Content */,
+			);
+			path = corkios;
+			sourceTree = "<group>";
+		};
+		4713E2D12685D379004931EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4713E2D22685D379004931EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4713E2DC2685D37A004931EA /* corkiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				4713E2DD2685D37A004931EA /* corkiosTests.swift */,
+				4713E2DF2685D37A004931EA /* Info.plist */,
+			);
+			path = corkiosTests;
+			sourceTree = "<group>";
+		};
+		4713E2E72685D37A004931EA /* corkiosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4713E2E82685D37A004931EA /* corkiosUITests.swift */,
+				4713E2EA2685D37A004931EA /* Info.plist */,
+			);
+			path = corkiosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4713E2C72685D378004931EA /* corkios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4713E2ED2685D37A004931EA /* Build configuration list for PBXNativeTarget "corkios" */;
+			buildPhases = (
+				4713E2C42685D378004931EA /* Sources */,
+				4713E2C52685D378004931EA /* Frameworks */,
+				4713E2C62685D378004931EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = corkios;
+			productName = corkios;
+			productReference = 4713E2C82685D378004931EA /* corkios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4713E2D82685D37A004931EA /* corkiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4713E2F02685D37A004931EA /* Build configuration list for PBXNativeTarget "corkiosTests" */;
+			buildPhases = (
+				4713E2D52685D37A004931EA /* Sources */,
+				4713E2D62685D37A004931EA /* Frameworks */,
+				4713E2D72685D37A004931EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4713E2DB2685D37A004931EA /* PBXTargetDependency */,
+			);
+			name = corkiosTests;
+			productName = corkiosTests;
+			productReference = 4713E2D92685D37A004931EA /* corkiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4713E2E32685D37A004931EA /* corkiosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4713E2F32685D37A004931EA /* Build configuration list for PBXNativeTarget "corkiosUITests" */;
+			buildPhases = (
+				4713E2E02685D37A004931EA /* Sources */,
+				4713E2E12685D37A004931EA /* Frameworks */,
+				4713E2E22685D37A004931EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4713E2E62685D37A004931EA /* PBXTargetDependency */,
+			);
+			name = corkiosUITests;
+			productName = corkiosUITests;
+			productReference = 4713E2E42685D37A004931EA /* corkiosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4713E2C02685D378004931EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4713E2C72685D378004931EA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					4713E2D82685D37A004931EA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4713E2C72685D378004931EA;
+					};
+					4713E2E32685D37A004931EA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 4713E2C72685D378004931EA;
+					};
+				};
+			};
+			buildConfigurationList = 4713E2C32685D378004931EA /* Build configuration list for PBXProject "corkios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4713E2BF2685D378004931EA;
+			productRefGroup = 4713E2C92685D378004931EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4713E2C72685D378004931EA /* corkios */,
+				4713E2D82685D37A004931EA /* corkiosTests */,
+				4713E2E32685D37A004931EA /* corkiosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4713E2C62685D378004931EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4713E2D32685D379004931EA /* Preview Assets.xcassets in Resources */,
+				4713E2D02685D379004931EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4713E2D72685D37A004931EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4713E2E22685D37A004931EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4713E2C42685D378004931EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4713E2CE2685D378004931EA /* ContentView.swift in Sources */,
+				4713E2CC2685D378004931EA /* corkiosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4713E2D52685D37A004931EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4713E2DE2685D37A004931EA /* corkiosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4713E2E02685D37A004931EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4713E2E92685D37A004931EA /* corkiosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4713E2DB2685D37A004931EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4713E2C72685D378004931EA /* corkios */;
+			targetProxy = 4713E2DA2685D37A004931EA /* PBXContainerItemProxy */;
+		};
+		4713E2E62685D37A004931EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4713E2C72685D378004931EA /* corkios */;
+			targetProxy = 4713E2E52685D37A004931EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4713E2EB2685D37A004931EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4713E2EC2685D37A004931EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4713E2EE2685D37A004931EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"corkios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = corkios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intersindical.corkios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4713E2EF2685D37A004931EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"corkios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = corkios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intersindical.corkios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4713E2F12685D37A004931EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = corkiosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intersindical.corkiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/corkios.app/corkios";
+			};
+			name = Debug;
+		};
+		4713E2F22685D37A004931EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = corkiosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intersindical.corkiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/corkios.app/corkios";
+			};
+			name = Release;
+		};
+		4713E2F42685D37A004931EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = corkiosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intersindical.corkiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = corkios;
+			};
+			name = Debug;
+		};
+		4713E2F52685D37A004931EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = corkiosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intersindical.corkiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = corkios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4713E2C32685D378004931EA /* Build configuration list for PBXProject "corkios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4713E2EB2685D37A004931EA /* Debug */,
+				4713E2EC2685D37A004931EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4713E2ED2685D37A004931EA /* Build configuration list for PBXNativeTarget "corkios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4713E2EE2685D37A004931EA /* Debug */,
+				4713E2EF2685D37A004931EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4713E2F02685D37A004931EA /* Build configuration list for PBXNativeTarget "corkiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4713E2F12685D37A004931EA /* Debug */,
+				4713E2F22685D37A004931EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4713E2F32685D37A004931EA /* Build configuration list for PBXNativeTarget "corkiosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4713E2F42685D37A004931EA /* Debug */,
+				4713E2F52685D37A004931EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4713E2C02685D378004931EA /* Project object */;
+}
