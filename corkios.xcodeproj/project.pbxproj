@@ -3,17 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		471150732689CD6D0099BA5C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471150722689CD6D0099BA5C /* LocationManager.swift */; };
+		471150752689D10F0099BA5C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 471150742689D10F0099BA5C /* GoogleService-Info.plist */; };
 		4713E2CC2685D378004931EA /* corkiosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713E2CB2685D378004931EA /* corkiosApp.swift */; };
-		4713E2CE2685D378004931EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713E2CD2685D378004931EA /* ContentView.swift */; };
 		4713E2D02685D379004931EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4713E2CF2685D379004931EA /* Assets.xcassets */; };
 		4713E2D32685D379004931EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4713E2D22685D379004931EA /* Preview Assets.xcassets */; };
 		4713E2DE2685D37A004931EA /* corkiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713E2DD2685D37A004931EA /* corkiosTests.swift */; };
 		4713E2E92685D37A004931EA /* corkiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713E2E82685D37A004931EA /* corkiosUITests.swift */; };
-		4713E2FB2685FB90004931EA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713E2FA2685FB90004931EA /* MainView.swift */; };
+		475417BC268DC5BC00C3A415 /* centres_educatius.json in Resources */ = {isa = PBXBuildFile; fileRef = 475417BB268DC5BC00C3A415 /* centres_educatius.json */; };
+		479B3F3B2691FFFD008FE34D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479B3F3A2691FFFD008FE34D /* SignInView.swift */; };
+		479B3F3D269200A4008FE34D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479B3F3C269200A4008FE34D /* ContentView.swift */; };
+		B1827CB20B5192A7926D89B3 /* Pods_corkios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C561CEC3936DBDF919C62D8F /* Pods_corkios.framework */; };
+		B5BEA10CA680225B74E89980 /* Pods_corkiosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB47E1E177120DE1EDB5AC6 /* Pods_corkiosTests.framework */; };
+		BF01CD84FFF91E3ED33AB00B /* Pods_corkios_corkiosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30F689F6E4DA4AC650DAA7C /* Pods_corkios_corkiosUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E0E10638D3155246AD2E3B7 /* Pods-corkiosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-corkiosTests.debug.xcconfig"; path = "Target Support Files/Pods-corkiosTests/Pods-corkiosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F8B9792B95CF6B3ED8BCC13 /* Pods-corkios-corkiosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-corkios-corkiosUITests.release.xcconfig"; path = "Target Support Files/Pods-corkios-corkiosUITests/Pods-corkios-corkiosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		262E5FCECCA38252123185F4 /* Pods-corkiosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-corkiosTests.release.xcconfig"; path = "Target Support Files/Pods-corkiosTests/Pods-corkiosTests.release.xcconfig"; sourceTree = "<group>"; };
+		380D87AE307951919B0B9ED6 /* Pods-corkios-corkiosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-corkios-corkiosUITests.debug.xcconfig"; path = "Target Support Files/Pods-corkios-corkiosUITests/Pods-corkios-corkiosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C1EB576AB3F2CA10568B3D7 /* Pods-corkios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-corkios.debug.xcconfig"; path = "Target Support Files/Pods-corkios/Pods-corkios.debug.xcconfig"; sourceTree = "<group>"; };
+		471150722689CD6D0099BA5C /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		471150742689D10F0099BA5C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4713E2C82685D378004931EA /* corkios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = corkios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4713E2CB2685D378004931EA /* corkiosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = corkiosApp.swift; sourceTree = "<group>"; };
-		4713E2CD2685D378004931EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4713E2CF2685D379004931EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4713E2D22685D379004931EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4713E2D42685D379004931EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +58,13 @@
 		4713E2E42685D37A004931EA /* corkiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = corkiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4713E2E82685D37A004931EA /* corkiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = corkiosUITests.swift; sourceTree = "<group>"; };
 		4713E2EA2685D37A004931EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4713E2FA2685FB90004931EA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		475417BB268DC5BC00C3A415 /* centres_educatius.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = centres_educatius.json; path = ../../../Downloads/centres_educatius.json; sourceTree = "<group>"; };
+		479B3F3A2691FFFD008FE34D /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		479B3F3C269200A4008FE34D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5EB47E1E177120DE1EDB5AC6 /* Pods_corkiosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_corkiosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79300116455CAC9584606433 /* Pods-corkios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-corkios.release.xcconfig"; path = "Target Support Files/Pods-corkios/Pods-corkios.release.xcconfig"; sourceTree = "<group>"; };
+		C561CEC3936DBDF919C62D8F /* Pods_corkios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_corkios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30F689F6E4DA4AC650DAA7C /* Pods_corkios_corkiosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_corkios_corkiosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1827CB20B5192A7926D89B3 /* Pods_corkios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5BEA10CA680225B74E89980 /* Pods_corkiosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF01CD84FFF91E3ED33AB00B /* Pods_corkios_corkiosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B705AFF5E6AE19C0C1BA17B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C1EB576AB3F2CA10568B3D7 /* Pods-corkios.debug.xcconfig */,
+				79300116455CAC9584606433 /* Pods-corkios.release.xcconfig */,
+				380D87AE307951919B0B9ED6 /* Pods-corkios-corkiosUITests.debug.xcconfig */,
+				1F8B9792B95CF6B3ED8BCC13 /* Pods-corkios-corkiosUITests.release.xcconfig */,
+				0E0E10638D3155246AD2E3B7 /* Pods-corkiosTests.debug.xcconfig */,
+				262E5FCECCA38252123185F4 /* Pods-corkiosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4713E2BF2685D378004931EA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				4713E2DC2685D37A004931EA /* corkiosTests */,
 				4713E2E72685D37A004931EA /* corkiosUITests */,
 				4713E2C92685D378004931EA /* Products */,
+				2B705AFF5E6AE19C0C1BA17B /* Pods */,
+				674F1D96DC21845A1399E94E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +133,15 @@
 		4713E2CA2685D378004931EA /* corkios */ = {
 			isa = PBXGroup;
 			children = (
+				479B3F3C269200A4008FE34D /* ContentView.swift */,
+				479B3F3A2691FFFD008FE34D /* SignInView.swift */,
 				4713E2CB2685D378004931EA /* corkiosApp.swift */,
-				4713E2CD2685D378004931EA /* ContentView.swift */,
 				4713E2CF2685D379004931EA /* Assets.xcassets */,
+				475417BB268DC5BC00C3A415 /* centres_educatius.json */,
 				4713E2D42685D379004931EA /* Info.plist */,
+				471150742689D10F0099BA5C /* GoogleService-Info.plist */,
 				4713E2D12685D379004931EA /* Preview Content */,
-				4713E2FA2685FB90004931EA /* MainView.swift */,
+				471150722689CD6D0099BA5C /* LocationManager.swift */,
 			);
 			path = corkios;
 			sourceTree = "<group>";
@@ -133,6 +172,16 @@
 			path = corkiosUITests;
 			sourceTree = "<group>";
 		};
+		674F1D96DC21845A1399E94E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C561CEC3936DBDF919C62D8F /* Pods_corkios.framework */,
+				F30F689F6E4DA4AC650DAA7C /* Pods_corkios_corkiosUITests.framework */,
+				5EB47E1E177120DE1EDB5AC6 /* Pods_corkiosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4713E2ED2685D37A004931EA /* Build configuration list for PBXNativeTarget "corkios" */;
 			buildPhases = (
+				33063813DC3A0FB6ACA30355 /* [CP] Check Pods Manifest.lock */,
 				4713E2C42685D378004931EA /* Sources */,
 				4713E2C52685D378004931EA /* Frameworks */,
 				4713E2C62685D378004931EA /* Resources */,
+				471E28E6A40B36B01D85609B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4713E2F02685D37A004931EA /* Build configuration list for PBXNativeTarget "corkiosTests" */;
 			buildPhases = (
+				51A023217255E183FE28D92C /* [CP] Check Pods Manifest.lock */,
 				4713E2D52685D37A004931EA /* Sources */,
 				4713E2D62685D37A004931EA /* Frameworks */,
 				4713E2D72685D37A004931EA /* Resources */,
@@ -175,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4713E2F32685D37A004931EA /* Build configuration list for PBXNativeTarget "corkiosUITests" */;
 			buildPhases = (
+				A409031E79F6D2914E679DA3 /* [CP] Check Pods Manifest.lock */,
 				4713E2E02685D37A004931EA /* Sources */,
 				4713E2E12685D37A004931EA /* Frameworks */,
 				4713E2E22685D37A004931EA /* Resources */,
+				ECE96CA86C4112CEF01B7B90 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,8 +290,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				475417BC268DC5BC00C3A415 /* centres_educatius.json in Resources */,
 				4713E2D32685D379004931EA /* Preview Assets.xcassets in Resources */,
 				4713E2D02685D379004931EA /* Assets.xcassets in Resources */,
+				471150752689D10F0099BA5C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +313,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33063813DC3A0FB6ACA30355 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-corkios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		471E28E6A40B36B01D85609B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-corkios/Pods-corkios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-corkios/Pods-corkios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-corkios/Pods-corkios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51A023217255E183FE28D92C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-corkiosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A409031E79F6D2914E679DA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-corkios-corkiosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE96CA86C4112CEF01B7B90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-corkios-corkiosUITests/Pods-corkios-corkiosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-corkios-corkiosUITests/Pods-corkios-corkiosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-corkios-corkiosUITests/Pods-corkios-corkiosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4713E2C42685D378004931EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4713E2CE2685D378004931EA /* ContentView.swift in Sources */,
-				4713E2FB2685FB90004931EA /* MainView.swift in Sources */,
+				471150732689CD6D0099BA5C /* LocationManager.swift in Sources */,
+				479B3F3B2691FFFD008FE34D /* SignInView.swift in Sources */,
+				479B3F3D269200A4008FE34D /* ContentView.swift in Sources */,
 				4713E2CC2685D378004931EA /* corkiosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +578,7 @@
 		};
 		4713E2EE2685D37A004931EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C1EB576AB3F2CA10568B3D7 /* Pods-corkios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,6 +600,7 @@
 		};
 		4713E2EF2685D37A004931EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79300116455CAC9584606433 /* Pods-corkios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +622,7 @@
 		};
 		4713E2F12685D37A004931EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0E10638D3155246AD2E3B7 /* Pods-corkiosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -481,6 +644,7 @@
 		};
 		4713E2F22685D37A004931EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 262E5FCECCA38252123185F4 /* Pods-corkiosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +666,7 @@
 		};
 		4713E2F42685D37A004931EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380D87AE307951919B0B9ED6 /* Pods-corkios-corkiosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +686,7 @@
 		};
 		4713E2F52685D37A004931EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8B9792B95CF6B3ED8BCC13 /* Pods-corkios-corkiosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
