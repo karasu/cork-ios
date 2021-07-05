@@ -97,41 +97,42 @@ struct ContentView: View {
 
 
     func visitCentre() {
-        /*
-        val url = "https://cork-86201-default-rtdb.europe-west1.firebasedatabase.app"
-                database = FirebaseDatabase.getInstance(url)
-        
-        val currentTime = java.util.Calendar.getInstance()
-                    centre.visitTime = currentTime.time.toString()
-                    centre.user = auth.currentUser!!.email.toString()
-                    database.getReference("centres").child(centre.Codi!!).setValue(centre)
-*/
-        //let url = "https://cork-86201-default-rtdb.europe-west1.firebasedatabase.app"
 
         if (centre.Codi != 0) {
-            var ref: DatabaseReference!
-            
-            ref = Database.database().reference()
-            
-            let centreRef = ref.child("centres").child(String(centre.Codi))
-
-            centreRef.setValue(String(centre.Codi))
-            
-            centreRef.child("codi").setValue(centre.Codi)
-            centreRef.child("nom").setValue(centre.Nom)
-            centreRef.child("nom_comarca").setValue(centre.Nom_comarca)
-            centreRef.child("nom_municipi").setValue(centre.Nom_municipi)
-            centreRef.child("coordenades_GEO_X").setValue(centre.Coordenades_GEO_X)
-            centreRef.child("coordenades_GEO_Y").setValue(centre.Coordenades_GEO_Y)
-            centreRef.child("email").setValue(centre.Email_centre)
-           
             let dateFormatter : DateFormatter = DateFormatter()
             dateFormatter.dateFormat = "E MMM dd HH:mm:ss yyyy"
             let date = Date()
             let dateString = dateFormatter.string(from: date)
+
+            let user = viewModel.user.replacingOccurrences(of: ".", with: "_")
+            let timestamp = NSDate().timeIntervalSince1970
+
+            var dbref: DatabaseReference!
+            dbref = Database.database().reference()
             
-            centreRef.child("visitTime").setValue(dateString)
-            centreRef.child("user").setValue(viewModel.user)
+            /*
+            let ref = dbref.child("centres").child(String(centre.Codi))
+            ref.child("codi").setValue(centre.Codi)
+            ref.child("nom").setValue(centre.Nom)
+            ref.child("nom_comarca").setValue(centre.Nom_comarca)
+            ref.child("nom_municipi").setValue(centre.Nom_municipi)
+            ref.child("coordenades_GEO_X").setValue(centre.Coordenades_GEO_X)
+            ref.child("coordenades_GEO_Y").setValue(centre.Coordenades_GEO_Y)
+            ref.child("email").setValue(centre.Email_centre)
+            ref.child("visit_time").setValue(dateString)
+            ref.child("user_email").setValue(viewModel.useremail)
+            */
+            let ref = dbref.child("alliberades").child(user).child(dateString)
+            ref.child("codi").setValue(centre.Codi)
+            ref.child("nom").setValue(centre.Nom)
+            ref.child("nom_comarca").setValue(centre.Nom_comarca)
+            ref.child("nom_municipi").setValue(centre.Nom_municipi)
+            ref.child("coordenades_GEO_X").setValue(centre.Coordenades_GEO_X)
+            ref.child("coordenades_GEO_Y").setValue(centre.Coordenades_GEO_Y)
+            ref.child("email").setValue(centre.Email_centre)
+            ref.child("visit_time").setValue(dateString)
+            ref.child("user_email").setValue(viewModel.useremail)
+            ref.child("timestamp").setValue(timestamp)
         }
     }
 }

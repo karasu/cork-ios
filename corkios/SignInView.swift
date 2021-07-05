@@ -18,8 +18,13 @@ class AppViewModel : ObservableObject {
         return auth.currentUser != nil
     }
     
-    var user : String {
+    var useremail : String {
         return auth.currentUser?.email ?? ""
+    }
+    
+    var user : String {        
+        let firstA = useremail.firstIndex(of: "@") ?? useremail.endIndex
+        return String(useremail[..<firstA])
     }
     
     func signIn(email: String, password: String) {
